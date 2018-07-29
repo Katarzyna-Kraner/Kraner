@@ -1,0 +1,128 @@
+body
+{
+    
+    color:white;
+    
+}
+
+h1
+{
+   
+    font-size: 50px;
+    font-weight: 600; 
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+p
+{
+   
+    font-size: 23px;
+  
+    
+}
+
+
+.window
+{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    width: 1000px;
+    height: 550px;
+    margin-left: 460px;
+    margin-top: 365px;
+
+}
+
+.avatar
+{
+    animation: show 3s ease-in-out;
+    
+    display: flex;
+    border-radius: 100%;
+    border: solid 1px #fff;
+    width: 300px;
+    height: 300px;
+    margin-left: 64px;
+    margin-right: 38px;
+    background-image: url('avatar.png');
+    
+    
+}
+
+.about
+{
+    
+    opacity: 0.8;
+    width: 544px;
+    height: 550px;
+    align-content: center;
+    margin-right: 64px;
+    margin-top:70px;
+    justify-content: left;
+
+
+}
+.nav
+{
+    width: 524px;
+    display: flex;
+    justify-content: left;
+    
+
+}
+
+.nav-item
+{
+
+    color:white;
+    font-size: 50px;
+    margin-right:30px;
+    
+}
+
+a
+{
+text-decoration: none;
+}
+
+.wrapper
+{
+    background-image: url('img2.jpg');
+    position: absolute;
+    width: 1920px;
+    height: 1280px;
+    left: 0px;
+    top: -100px;
+
+}
+
+a:link
+{
+    color:white;
+}
+a:visited
+{
+    color:white;
+}
+a:hover
+{
+    color: #BCE27F;
+    cursor: pointer;
+}
+
+@keyframes show {
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
